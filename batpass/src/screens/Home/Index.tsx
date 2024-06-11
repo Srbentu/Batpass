@@ -3,6 +3,7 @@ import { Text, View} from 'react-native';
 import {StatusBar} from "expo-status-bar";
 import styles from './Style';
 import Batlogo from "../../components/Batlogo/Index";
+import Input from "../../components/Input/Index";
 
 
 export default function Index() {
@@ -14,7 +15,9 @@ export default function Index() {
           <View style={styles.logoContainer}>
               <Batlogo/>
           </View>
-
+          <View style={styles.input}>
+            <Input/>
+          </View>
           <View>
               <Text style={styles.mini}>Design by Me...</Text>
           </View>

@@ -17,6 +17,9 @@ const styles = StyleSheet.create({
     },
     mini:{
         marginBottom:20
+    },
+    input:{
+        width: '100%',
     }
 });
 
