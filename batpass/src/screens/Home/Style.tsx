@@ -5,8 +5,19 @@ const styles = StyleSheet.create({
         flex: 1,
         backgroundColor: '#babaca',
         alignItems: 'center',
-        justifyContent: 'center',
+        justifyContent: 'space-between',
     },
+    logoContainer:{
+        flexDirection:"column",
+        backgroundColor:'grey',
+        justifyContent:'center',
+        alignSelf:'center',
+        margin:60,
+        padding:60,
+    },
+    mini:{
+        marginBottom:20
+    }
 });
 
 export default styles;

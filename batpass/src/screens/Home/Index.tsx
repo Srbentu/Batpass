@@ -8,15 +8,17 @@ import Batlogo from "../../components/Batlogo/Index";
 export default function Index() {
   return (
       <View style={styles.container}>
-          <View>
+          <View >
               <StatusBar style="auto" />
           </View>
-          <View>
+          <View style={styles.logoContainer}>
               <Batlogo/>
           </View>
 
+          <View>
+              <Text style={styles.mini}>Design by Me...</Text>
+          </View>
 
-          <Text>Welcome to BatPass!</Text>
       </View>
 
   )
