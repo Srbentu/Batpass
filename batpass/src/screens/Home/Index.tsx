@@ -4,7 +4,7 @@ import {StatusBar} from "expo-status-bar";
 import styles from './Style';
 import Batlogo from "../../components/Batlogo/Index";
 import Input from "../../components/Input/Index";
-
+import Button from "../../components/Button/Index";
 
 export default function Index() {
   return (
@@ -17,6 +17,9 @@ export default function Index() {
           </View>
           <View style={styles.input}>
             <Input/>
+          </View>
+          <View>
+              <Button />
           </View>
           <View>
               <Text style={styles.mini}>Design by Me...</Text>
