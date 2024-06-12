@@ -16,6 +16,8 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         textAlign: 'center',
         width: '100%',
+        marginRight: 'auto',
+        marginLeft: 'auto',
     }
 });
 

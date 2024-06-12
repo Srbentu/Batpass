@@ -3,13 +3,12 @@ import {StyleSheet} from "react-native";
 const styles = StyleSheet.create({
     input:{
         height: 40,
-        width: '100%',
+        width: 300,
         marginTop: 12,
         marginBottom: 12,
         marginLeft:"auto",
         marginRight:"auto",
         color: '#000',
-
         borderWidth: 1,
         padding: 10,
         borderRadius: 10,
